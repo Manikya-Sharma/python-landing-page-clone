@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+  .up-bar{
+    @apply w-full h-1;
+  }
+  .activated{
+    @apply text-white;
+    background:linear-gradient(0deg, rgba(41,35,153,1) 0%, rgba(44,44,170,1) 35%, rgba(0,1,24,1) 100%);
+    /* Couldn't find the correct linear gradient. */
+  }
+}
