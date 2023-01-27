@@ -10,5 +10,5 @@ navList.addEventListener("click", (e) => {
 const closeButton = document.querySelector(".close-button");
 
 closeButton.addEventListener("click", ()=>{
-  
+  // TODO
 });
