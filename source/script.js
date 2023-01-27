@@ -6,6 +6,3 @@ navList.addEventListener("click", (e) => {
   }
   e.target.classList.add("activated");
 });
-navList.addEventListener("hover", (e) =>{
-  e.target.classList.add("text-white");
-});
