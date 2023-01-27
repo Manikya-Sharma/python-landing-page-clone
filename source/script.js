@@ -6,3 +6,9 @@ navList.addEventListener("click", (e) => {
   }
   e.target.classList.add("activated");
 });
+
+const closeButton = document.querySelector(".close-button");
+
+closeButton.addEventListener("click", ()=>{
+  
+});

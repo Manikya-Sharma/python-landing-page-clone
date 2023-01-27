@@ -8,34 +8,45 @@
     <title>Python Clone</title>
   </head>
   <body>
-    <nav class="flex justify-center bg-[#1e2933]">
-        <ul class="flex justify-center bg-[#1e2933] cursor-pointer w-fit">
-          <li class="text-[#999] activated">
+    <nav class="flex sm:justify-center bg-[#1e2933]">
+        <ul class="flex flex-col sm:flex-row sm:justify-center sm:w-fit bg-[#1e2933] w-full cursor-pointer">
+          <li class="close-button sm:hidden text-center">
+            <div class="text-white bg-[#1f2a32] text-holder pt-2 pb-3 px-14">
+              Close
+            </div>
+          </li>
+          <li class="text-[#999] activated text-center">
             <!-- `activated` class is being managed by script.js -->
             <div class="up-bar bg-[#3776ab]"></div>
             <!-- I don't know how to add a triangle.-->
             <!--`up-bar`, `activated` are styled as layer in style.css -->
             <div class="text-holder pt-2 pb-3 px-14">Python</div>
+            <!--TODO Text cuts on smaller width-->
           </li>
-          <li class="text-[#999]">
+          <li class="text-[#999] text-center">
             <div class="up-bar bg-[#78797a]"></div>
             <div class="text-holder pt-2 pb-3 px-14">PSF</div>
           </li>
-          <li class="text-[#999]">
+          <li class="text-[#999] text-center">
             <div class="up-bar bg-[#ffd343]"></div>
             <div class="text-holder pt-2 pb-3 px-14">Docs</div>
           </li>
-          <li class="text-[#999]">
+          <li class="text-[#999] text-center">
             <div class="up-bar bg-[#82b043]"></div>
             <div class="text-holder pt-2 pb-3 px-14">PyPI</div>
           </li>
-          <li class="text-[#999]">
+          <li class="text-[#999] text-center">
             <div class="up-bar bg-[#a06ba7]"></div>
             <div class="text-holder pt-2 pb-3 px-14">Jobs</div>
           </li>
-          <li class="text-[#999]">
+          <li class="text-[#999] text-center">
             <div class="up-bar bg-[#b55863]"></div>
             <div class="text-holder pt-2 pb-3 px-14">Community</div>
+          </li>
+          <li class="bg-[#1f2a32] close-button sm:hidden text-center">
+            <div class="text-white text-holder pt-2 pb-3 px-14">
+              The Python Network
+            </div>
           </li>
         </ul>
       </div>
