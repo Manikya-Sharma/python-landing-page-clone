@@ -51,6 +51,66 @@
         </ul>
       </div>
     </nav>
+
+    <div class="intro bg-gradient-to-b from-[#1c3b57] to-[#2b5b84]">
+      <!--TODO Not adding drop-down menus as of now.-->
+      <div class="flex-col sm:flex sm:flex-row sm:justify-between">
+        <img src="./assets/python-logo.png" alt="Python Logo" class="ml-20">
+        <div class="buttons flex-col sm:flex sm:flex-row">
+          <button class="sm:px-2 py-1 bg-yellow-400 rounded-md sm:my-auto text-gray-600 hover:bg-yellow-300 hover:text-black w-4/5 sm:w-fit sm:mx-2 px-auto mx-auto block">Donate</button>
+          <div class="flex w-fit bg-[#1e2933] my-4 sm:ml-2 sm:mr-5 mx-auto rounded-md shadow-md">
+            <div class="flex sm:mx-2 ">
+              <img src="./assets/search.png" alt="search-icon" class="search-icon w-5 my-auto mr-2 ml-2 sm:ml-0">
+              <input type="text" placeholder="Search" class="my-2 px-2 bg-inherit sm:bg-gray-300">
+              <button class="px-2 py-1 my-2 ml-3 mr-2 sm:mr-0 rounded-lg text-white bg-[#3774a9] hover:bg-[#234a6d]">GO</button>
+            </div>
+            <button class="w-fit text-gray-400 px-3 border-l border-black hover:bg-white">Socialize</button>
+          </div>
+        </div>
+      </div>
+      <div class="nav2 w-fit mx-auto hidden sm:block" aria-label="navigation">
+        <ul class="flex justify-center px-20 rounded-md bg-[#3774a9] text-amber-100 text-lg">
+          <li class="px-4 py-3 hover:bg-[#1a3852] cursor-pointer">About</li>
+          <li class="px-4 py-3 hover:bg-[#1a3852] cursor-pointer">Downloads</li>
+          <li class="px-4 py-3 hover:bg-[#1a3852] cursor-pointer">Documentation</li>
+          <li class="px-4 py-3 hover:bg-[#1a3852] cursor-pointer">Community</li>
+          <li class="px-4 py-3 hover:bg-[#1a3852] cursor-pointer">Success Stories</li>
+          <li class="px-4 py-3 hover:bg-[#1a3852] cursor-pointer">News</li>
+          <li class="px-4 py-3 hover:bg-[#1a3852] cursor-pointer">Events</li>
+        </ul>
+      </div>
+      <div class="examples flex-col sm:flex sm:flex-row justify-center sm:space-x-5 sm:w-3/5 mx-auto sm:my-3 bg-[#1c3b56] sm:pr-3 w-5/6 space-y-3 pb-2 sm:space-y-0 sm:pb-0">
+        <div class="code sm:mr-10 mx-0 overflow-hidden sm:overflow-visible">
+          <pre class="bg-black text-white px-5"><code>
+# Python 3: Simple arithmetic
+>>> 1 / 2
+0.5
+>>> 2 ** 3
+8
+>>> 17 / 3  # classic division returns a float
+5.666666666666667
+>>> 17 // 3  # floor division
+5
+          </code></pre>
+        </div>
+        <div class="explanation ml-10 mr-3">
+          <h1 class="text-yellow-300 font-bold text-xl">Intuitive Interpretation</h1>
+          <p class="text-white text-md">
+            Calculations are simple with Python, and expression syntax is
+            straightforward: the operators +, -, * and / work as expected;
+            parentheses () can be used for grouping. More about simple math
+            functions in Python 3.
+          </p>
+        </div>
+      </div>
+      <div class="text-container max-w-2xl text-center mx-auto">
+        <p class="text-2xl text-white my-5 max-auto pb-10">
+          Python is a programming language that lets you work quickly
+          and integrate systems more effectively. <a class="underline text-yellow-500 hover:text-white cursor-pointer">&gt;&gt;&gt; Learn More</a>
+        </p>
+      </div>
+    </div>
+
     <script src="./script.js"></script>
   </body>
 </html>
